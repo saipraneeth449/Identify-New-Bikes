@@ -9,11 +9,12 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Parameters;
 
 public class ApacheCode {
 	
 	
-	public void writeResult() throws IOException {
+	public void writeResult(String browser) throws IOException {
 	 
 
 	WebDriver driver=FindBikes.driver;
@@ -49,8 +50,24 @@ public class ApacheCode {
 		num++;
 	}
 	
-	FileOutputStream fileOut = new FileOutputStream("C:\\Users\\2419228\\OneDrive - Cognizant\\Desktop\\Book1.xlsx");
+	switch (browser) {
+	
+	case  "chrome": try (FileOutputStream fileOut = new FileOutputStream("C:\\Users\\2419228\\OneDrive - Cognizant\\Desktop\\Book1.xlsx")){
 		workbook.write(fileOut);
+	}
+	break;
+	case  "edge": try (FileOutputStream fileOut2 = new FileOutputStream("C:\\Users\\2419228\\OneDrive - Cognizant\\Desktop\\Book3.xlsx")){
+		workbook.write(fileOut2);
+	}
+	break;
+	
+	
+		
+	
+	
+	}
+	
+		
 //		sheet.close();
 		workbook.close();
 		

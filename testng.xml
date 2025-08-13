@@ -4,10 +4,13 @@
 <listeners>
 <listener class-name="Project.ExtentReportManager"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
-  
+  <test thread-count="5" name="Test" parallel="tests">
+   <parameter name="browser" value="chrome"/>
     <classes>
       <class name="Project.FindBikes"/>
     </classes>
+
   </test> <!-- Test -->
+  
+  
 </suite> <!-- Suite -->
