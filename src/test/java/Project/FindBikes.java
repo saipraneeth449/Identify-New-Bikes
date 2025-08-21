@@ -35,7 +35,6 @@ public class FindBikes {
 		logger = LogManager.getLogger(FindBikes.class);
 		if (browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
-			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
 		else {

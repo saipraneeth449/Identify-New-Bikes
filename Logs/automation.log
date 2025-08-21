@@ -1,7 +1,24 @@
-2025-08-13 17:40:44 INFO  FindBikes:52 - navigating
-2025-08-13 17:48:14 INFO  FindBikes:52 - Navigating to the Website
-2025-08-13 17:48:20 INFO  FindBikes:67 - Searching bikes
-2025-08-13 17:48:26 INFO  FindBikes:94 - Printing bike names
-2025-08-13 17:48:30 INFO  FindBikes:116 - Printing prices
-2025-08-13 17:48:30 INFO  FindBikes:137 - Printing dates
-2025-08-13 17:48:36 INFO  FindBikes:172 - Printing cars
+2025-08-18 12:21:23 INFO  FindBikes:52 - Navigating to the Website
+2025-08-18 12:21:26 INFO  FindBikes:67 - Searching bikes
+2025-08-18 12:21:29 INFO  FindBikes:94 - Printing bike names
+2025-08-18 12:21:32 INFO  FindBikes:116 - Printing prices
+2025-08-18 12:21:32 INFO  FindBikes:137 - Printing dates
+2025-08-18 12:21:36 INFO  FindBikes:172 - Printing cars
+2025-08-18 15:17:28 INFO  FindBikes:52 - Navigating to the Website
+2025-08-18 15:17:35 INFO  FindBikes:67 - Searching bikes
+2025-08-18 15:17:43 INFO  FindBikes:94 - Printing bike names
+2025-08-18 15:17:47 INFO  FindBikes:116 - Printing prices
+2025-08-18 15:17:47 INFO  FindBikes:137 - Printing dates
+2025-08-18 15:17:53 INFO  FindBikes:172 - Printing cars
+2025-08-18 15:20:11 INFO  FindBikes:51 - Navigating to the Website
+2025-08-18 15:20:15 INFO  FindBikes:66 - Searching bikes
+2025-08-18 15:20:22 INFO  FindBikes:93 - Printing bike names
+2025-08-18 15:20:25 INFO  FindBikes:115 - Printing prices
+2025-08-18 15:20:25 INFO  FindBikes:136 - Printing dates
+2025-08-18 15:20:31 INFO  FindBikes:171 - Printing cars
+2025-08-18 15:20:58 INFO  FindBikes:51 - Navigating to the Website
+2025-08-18 15:21:05 INFO  FindBikes:66 - Searching bikes
+2025-08-18 15:21:11 INFO  FindBikes:93 - Printing bike names
+2025-08-18 15:21:13 INFO  FindBikes:115 - Printing prices
+2025-08-18 15:21:13 INFO  FindBikes:136 - Printing dates
+2025-08-18 15:21:19 INFO  FindBikes:171 - Printing cars
